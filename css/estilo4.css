@@ -1,0 +1,169 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+#header{
+   
+   float: right 50px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: #0000FF;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav > li{
+   
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+    display: block;
+}
+.nav li a:hover{
+    background-color: #434343;
+
+}
+
+
+
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right: -140px:
+    top: 0px;
+}
+
+.banner{
+    width: 600px;
+    height: 300px;
+    border: 3px solid red;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: banner 10s infinite;
+
+}
+@keyframes banner{
+    0%, 30%{
+    background-image: url(../img/diagramacolaboracion.jpg); opacity: 1;
+}
+31%, 34% {
+    opacity: 0.1;
+}
+35%,65% {
+    background-image: url(../img/diagramasecuencia.jpg);
+}
+70%, 100%{
+    background-image: url(../img/diagramainteraccion.jpg);
+}
+}
+.banner1{
+    width: 600px;
+    height: 300px;
+    border: 3px solid red;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: banner1 10s infinite;
+
+}
+@keyframes banner1{
+    0%, 30%{
+    background-image: url(../img/imagen1.jpg); opacity: 1;
+}
+31%, 34% {
+    opacity: 0.1;
+}
+35%,65% {
+    background-image: url(../img/imagen2.jpg);
+}
+70%, 100%{
+    background-image: url(../img/imagen3.jpg);
+}
+}
+.banner2{
+    width: 600px;
+    height: 300px;
+    border: 3px solid red;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: banner2 10s infinite;
+
+}
+@keyframes banner2{
+    0%, 30%{
+    background-image: url(../img/imagen8.jpg); opacity: 1;
+}
+31%, 34% {
+    opacity: 0.1;
+}
+35%,65% {
+    background-image: url(../img/imagen7.jpg);
+}
+70%, 100%{
+    background-image: url(../img/imagen6.jpg);
+}
+}
+
+body{
+ 
+ background-color: #33FF90;
+    background-size: 100%;
+}
+
+div{
+   
+    padding: 20px 60px;
+    margin: 2%;
+
+}
+section{
+    border: 5px solid #AAA;
+}
+p{
+    border: 2px solid #AAA;
+    padding: 10px 20px;
+    margin: 5%
+       height: 10%;
+}
+
+h1{
+    text-align: center;
+}
+.iz{
+    width: 960px;
+   
+    position: relative;
+    margin-left: 3%;
+    margin-top: 120px;
+}
+article{
+    border: 2px solid #f00;
+}
+.ce{
+    width: 550px;
+    
+    position: relative;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+.de{
+    width: 550px;
+    
+    position: relative;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+

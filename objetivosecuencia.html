@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  
+	<title>Actividad UNAD</title>
+	 <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="css/estilo5.css">
+     <link rel="stylesheet" type="text/css" href="css/base.css" />
+       <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="iconos/Imagen.png" type="image/png" />
+      
+
+</head>
+
+
+<body><br><br>
+ <center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+<img height="20" align="left" style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=264515"></a><br></center></div>
+
+
+<div id="header">
+   <ul class="nav">
+     <li>
+        <input type="search" id="input-search" placeholder="Buscar aqui">
+
+       <table id="table">
+          <thead>
+            <tr>
+              <td>
+                
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="index.html">Inicio</a></td>
+            </tr>
+            <tr>
+              <li><a href="Objetivoespecifico.html">Objetivos</a>
+                <ul>
+                  <li><a href="especificos.html">Objetivos Especificos</a></li>
+                  <li><a href="objetivosecuencia.html">Objeto Secuencial</a></li>
+                  <li><a href="objetivocolaborativo.html">Objeto Colaborativo</a></li>
+                </li>
+              </td>
+            </tr>
+             <tr>
+              <td><a href="diagramasecuencia.html">Diagrama de Secuencia</a></td>
+            </tr>
+             <tr>
+              <td><a href="digramacolaboracion.html">Diagrama de Colaboracion</a></td>
+            </tr>
+            <tr>
+              <td><a href="autores.html">Autores</a></td>
+            </tr>
+          </tbody>
+        </table>
+  </li>
+        </div>   &nbsp
+       &nbsp
+
+    <div>
+  <center>
+        <h1>OBJETIVO DE DIAGRAMA SECUENCIA</h1>
+        <div class="social-bar">
+    <a href="https://es-la.facebook.com/UniversidadUNAD/" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/user/universidadunad" class="icon icon-youtube" target="_blank"></a>
+    <a href="https://www.instagram.com/universidadunad/?hl=es-la" class="icon icon-instagram" target="_blank"></a>
+  </div>
+        
+
+  <section class="iz">
+
+        <article>
+        
+          <h1>OBJETIVO GENERAL</h1>
+           <p>Conocer sobre los diagramas de secuencia en UML, sus características, funcionamiento y elementos que los componen
+        </p>
+<h1>Descripción</h1>
+<p>Un diagrama de secuencia tiene dos dimensiones, el eje vertical representa el tiempo y el eje horizontal los diferentes objetos. El tiempo avanza desde la parte superior del diagrama hacia la inferior. Normalmente, con relación al tiempo sólo es importante la secuencia de los mensajes, sin embargo, en aplicaciones de tiempo real se podría introducir una escala en el eje vertical. Respecto a los objetos, es irrelevante el orden en que se representan, aunque su colocación debería poseer la mayor claridad posible.<br>
+Cada objeto tiene asociados una línea de vida y focos de control. La línea de vida indica el intervalo de tiempo durante el que existe ese objeto. Un foco de control o activación muestra el periodo de tiempo en el cual el objeto se encuentra ejecutando alguna operación, ya sea directamente o mediante un procedimiento concurrente.</p>
+<h1>Objeto y línea de vida</h1>
+<p>Un objeto se representa como una línea vertical discontinua, llamada línea de vida, con un rectángulo de encabezado con el nombre del objeto en su interior. También se puede incluir a continuación el nombre de la clase, separando ambos por dos puntos.<br>
+Si el objeto es creado en el intervalo de tiempo representado en el diagrama, la línea comienza en el punto que representa ese instante y encima se coloca el objeto. Si el objeto es destruido durante la interacción que muestra el diagrama, la línea de vida termina en ese punto y se señala con un aspa de ancho equivalente al del foco de control.<br>
+En el caso de que un objeto existiese al principio de la interacción representada en el diagrama, dicho objeto se situará en la parte superior del diagrama, por encima del primer mensaje. Si un objeto no es eliminado en el tiempo que dura la interacción, su línea de vida se prolonga hasta la parte inferior del diagrama.<br>
+La línea de vida de un objeto puede desplegarse en dos o más líneas para mostrar los diferentes flujos de mensajes que puede intercambiar un objeto, dependiendo de alguna condición.
+<h1>Foco de control o activación</h1>
+<p>Se representa como un rectángulo delgado superpuesto a la línea de vida del objeto. Su largo dependerá́ de la duración de la acción. La parte superior del rectángulo indica el inicio de una acción ejecutada por el objeto y la parte inferior su finalización.</p>
+<h1>Mensaje</h1>
+<p>Un mensaje se representa como una flecha horizontal entre las líneas de vida de los objetos que intercambian el mensaje. La flecha va desde el objeto que envía el mensaje al que lo recibe. Además, un objeto puede mandarse un mensaje a sí mismo, en este caso la flecha comienza y termina en su línea de vida.<br>
+La flecha tiene asociada una etiqueta con el nombre del mensaje y los argumentos. También pueden ser etiquetados los mensajes con un número de secuencia, sin embargo, este número no es necesario porque la localización física de las flechas que representan a los mensajes ya indica el orden de los mismos.<br>
+Los mensajes pueden presentar También condiciones e iteraciones. Una condición se representa mediante una expresión booleana encerrada entre corchetes junto a un mensaje, e indica que ese mensaje sólo es enviado en caso de ser cierta la condición. Una iteración se representa con un asterisco y una expresión entre corchetes, que indica el número de veces que se produce.</p>
+<h1>Ejemplo</h1>
+<p>Diagrama de secuencia para el caso de uso: Prestar un ejemplar de una aplicación encargada de los préstamos y reservas de una biblioteca:</p><img height="350" width="800" src="img/imagen17.png" >
+<h1>CONCLUSIÓN</h1>
+
+<p>Como se mencionó anteriormente los diagramas de clases representan información estática de sistema, pero ya en un sistema funcional, los objetos interactúan entre sí con el tiempo, esto se puede representar mediante un diagrama de secuencias.<br>
+
+El objetivo de UML es ser capaz de describir el comportamiento de un sistema, subsistema u operación particular mediante un diagrama de secuencia el cual muestra la interacción de un conjunto de objetos en una aplicación a través del tiempo y se modela para cada caso de uso, esto facilita como se distribuyen las tareas entre los componentes.</p>
+
+
+
+
+        </article>
+
+<div class="social-bar">
+    <a href="https://es-la.facebook.com/UniversidadUNAD/" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/user/universidadunad" class="icon icon-youtube" target="_blank"></a>
+    <a href="https://www.instagram.com/universidadunad/?hl=es-la" class="icon icon-instagram" target="_blank"></a>
+  </div>
+    </section>
+  
+
+ 
+ 
+
+       &nbsp
+       &nbsp
+        &nbsp
+
+      
+      
+ 
+
+
+
+
+    </div>
+
+    
+
+		  </center>
+
+
+
+</body>
+
+</html>
