@@ -13,6 +13,11 @@
 ul, ol{
     list-style: none;
 }
+#destacada{
+    height: 20px;
+     float: left; 
+     border: 0px solid; display: inline;
+}
 .nav li a{
     background-color: #0000FF;
     color: #fff;
