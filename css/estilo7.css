@@ -27,7 +27,13 @@ ul, ol{
     display: block;
 
 }
-
+a {
+    float: center;
+}
+#foto{
+     height:200px;
+      width:200px;
+}
 .nav > li{
    
     float: left;
