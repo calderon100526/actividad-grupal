@@ -65,7 +65,7 @@
     <div>
   <center>
         <h1>OBJETIVO DE DIAGRAMA SECUENCIA</h1>
-   <div class="banner1"></div><br><br><br>
+   <div class="banner1"></div>
 
  
   <div class="social-bar">
@@ -78,28 +78,28 @@
 
   <section class="iz">
 
-        <article>
+        <article><br>
         
           <h1>OBJETIVO GENERAL</h1>
            <p>Conocer sobre los diagramas de secuencia en UML, sus características, funcionamiento y elementos que los componen
-        </p>
+        </p><br><br>
 <h1>Descripción</h1>
 <p>Un diagrama de secuencia tiene dos dimensiones, el eje vertical representa el tiempo y el eje horizontal los diferentes objetos. El tiempo avanza desde la parte superior del diagrama hacia la inferior. Normalmente, con relación al tiempo sólo es importante la secuencia de los mensajes, sin embargo, en aplicaciones de tiempo real se podría introducir una escala en el eje vertical. Respecto a los objetos, es irrelevante el orden en que se representan, aunque su colocación debería poseer la mayor claridad posible.<br>
 Cada objeto tiene asociados una línea de vida y focos de control. La línea de vida indica el intervalo de tiempo durante el que existe ese objeto. Un foco de control o activación muestra el periodo de tiempo en el cual el objeto se encuentra ejecutando alguna operación, ya sea directamente o mediante un procedimiento concurrente.</p>
-<h1>Objeto y línea de vida</h1>
+<br><br><h1>Objeto y línea de vida</h1>
 <p>Un objeto se representa como una línea vertical discontinua, llamada línea de vida, con un rectángulo de encabezado con el nombre del objeto en su interior. También se puede incluir a continuación el nombre de la clase, separando ambos por dos puntos.<br>
 Si el objeto es creado en el intervalo de tiempo representado en el diagrama, la línea comienza en el punto que representa ese instante y encima se coloca el objeto. Si el objeto es destruido durante la interacción que muestra el diagrama, la línea de vida termina en ese punto y se señala con un aspa de ancho equivalente al del foco de control.<br>
 En el caso de que un objeto existiese al principio de la interacción representada en el diagrama, dicho objeto se situará en la parte superior del diagrama, por encima del primer mensaje. Si un objeto no es eliminado en el tiempo que dura la interacción, su línea de vida se prolonga hasta la parte inferior del diagrama.<br>
 La línea de vida de un objeto puede desplegarse en dos o más líneas para mostrar los diferentes flujos de mensajes que puede intercambiar un objeto, dependiendo de alguna condición.
-<h1>Foco de control o activación</h1>
+<br><br><h1>Foco de control o activación</h1>
 <p>Se representa como un rectángulo delgado superpuesto a la línea de vida del objeto. Su largo dependerá́ de la duración de la acción. La parte superior del rectángulo indica el inicio de una acción ejecutada por el objeto y la parte inferior su finalización.</p>
-<h1>Mensaje</h1>
+<br><br><h1>Mensaje</h1>
 <p>Un mensaje se representa como una flecha horizontal entre las líneas de vida de los objetos que intercambian el mensaje. La flecha va desde el objeto que envía el mensaje al que lo recibe. Además, un objeto puede mandarse un mensaje a sí mismo, en este caso la flecha comienza y termina en su línea de vida.<br>
 La flecha tiene asociada una etiqueta con el nombre del mensaje y los argumentos. También pueden ser etiquetados los mensajes con un número de secuencia, sin embargo, este número no es necesario porque la localización física de las flechas que representan a los mensajes ya indica el orden de los mismos.<br>
 Los mensajes pueden presentar También condiciones e iteraciones. Una condición se representa mediante una expresión booleana encerrada entre corchetes junto a un mensaje, e indica que ese mensaje sólo es enviado en caso de ser cierta la condición. Una iteración se representa con un asterisco y una expresión entre corchetes, que indica el número de veces que se produce.</p>
-<h1>Ejemplo</h1>
+<br><br><h1>Ejemplo</h1>
 <p>Diagrama de secuencia para el caso de uso: Prestar un ejemplar de una aplicación encargada de los préstamos y reservas de una biblioteca:</p><img height="350" width="800" src="img/imagen17.png" >
-<h1>CONCLUSIÓN</h1>
+<br><br><h1>CONCLUSIÓN</h1>
 
 <p>Como se mencionó anteriormente los diagramas de clases representan información estática de sistema, pero ya en un sistema funcional, los objetos interactúan entre sí con el tiempo, esto se puede representar mediante un diagrama de secuencias.<br>
 
@@ -108,7 +108,13 @@ El objetivo de UML es ser capaz de describir el comportamiento de un sistema, su
 
 
 
-        </article>
+        </article><br><br>
+
+
+
+
+
+
 
     </section>
   
@@ -116,7 +122,7 @@ El objetivo de UML es ser capaz de describir el comportamiento de un sistema, su
  
  
 
-       <br><br><br>
+       
        
         
 
